@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_config.py", line 166, in __getattr__
+    return self.__getitem__(key)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_config.py", line 133, in __getitem__
+    return self._items[key]
+KeyError: 'lr'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/Users/simonknudsen/Desktop/final_exercise/main.py", line 111, in <module>
+    cli()
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/simonknudsen/Desktop/final_exercise/main.py", line 34, in train
+    lr  =  wandb.config.lr
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_config.py", line 168, in __getattr__
+    raise AttributeError(
+AttributeError: '<class 'wandb.sdk.wandb_config.Config'>' object has no attribute 'lr'

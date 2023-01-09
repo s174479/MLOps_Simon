@@ -1,0 +1,29 @@
+
+Epoch: 0
+Traceback (most recent call last):
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/PIL/Image.py", line 2992, in fromarray
+    mode, rawmode = _fromarray_typemap[typekey]
+KeyError: ((1, 1, 8), '|u1')
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/Users/simonknudsen/Desktop/final_exercise/main.py", line 95, in <module>
+    cli()
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/simonknudsen/Desktop/final_exercise/main.py", line 55, in train
+    wandb.log({"example of training image" : wandb.Image(images)})
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/data_types/image.py", line 157, in __init__
+    self._initialize_from_data(data_or_path, mode)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/data_types/image.py", line 287, in _initialize_from_data
+    self._image = pil_image.fromarray(
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/PIL/Image.py", line 2994, in fromarray
+    raise TypeError("Cannot handle this data type: %s, %s" % typekey) from e
+TypeError: Cannot handle this data type: (1, 1, 8), |u1

@@ -1,0 +1,14 @@
+# 🐝 Step 2: Define sweep config
+sweep_configuration = {
+    'method': 'random',
+    'name': 'sweep',
+    'metric': {'goal': 'minimize', 'name': 'train_loss'},
+    'parameters': 
+    {
+        'epochs': {'values': [5, 10, 15]},
+        'lr': {'max': 0.1, 'min': 0.0001}
+     }
+}
+
+
+

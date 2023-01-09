@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Users/simonknudsen/Desktop/final_exercise/main.py", line 93, in <module>
+    cli()
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1128, in __call__
+    return self.main(*args, **kwargs)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1053, in main
+    rv = self.invoke(ctx)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1659, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 1395, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/click/core.py", line 754, in invoke
+    return __callback(*args, **kwargs)
+  File "/Users/simonknudsen/Desktop/final_exercise/main.py", line 30, in train
+    trainloader, _ = mnist()
+  File "/Users/simonknudsen/Desktop/final_exercise/data.py", line 42, in mnist
+    train_dl = DataLoader(MyDataset(['corruptmnist/train_0.npz', 'corruptmnist/train_1.npz', 'corruptmnist/train_2.npz', 'corruptmnist/train_3.npz', 'corruptmnist/train_4.npz']), batch_size = 16)
+  File "/Users/simonknudsen/Desktop/final_exercise/data.py", line 20, in __init__
+    data = np.load(f)
+  File "/Users/simonknudsen/opt/anaconda3/lib/python3.9/site-packages/numpy/lib/npyio.py", line 417, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: 'corruptmnist/train_0.npz'

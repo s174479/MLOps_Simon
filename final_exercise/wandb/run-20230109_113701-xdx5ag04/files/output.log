@@ -1,0 +1,11 @@
+
+Epoch: 0
+log_ps shape: torch.Size([40, 10])
+Epoch: 1
+log_ps shape: torch.Size([40, 10])
+Epoch: 2
+log_ps shape: torch.Size([40, 10])
+Epoch: 3
+log_ps shape: torch.Size([40, 10])
+Epoch: 4
+log_ps shape: torch.Size([40, 10])

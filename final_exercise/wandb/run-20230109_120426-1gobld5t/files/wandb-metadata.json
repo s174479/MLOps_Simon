@@ -1,0 +1,40 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2023-01-09T11:04:27.037784",
+    "startedAt": "2023-01-09T11:04:26.017260",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "train",
+        "--lr",
+        "1e-4"
+    ],
+    "state": "running",
+    "program": "/Users/simonknudsen/Desktop/final_exercise/main.py",
+    "codePath": "main.py",
+    "host": "Simons-MacBook-Pro-2.local",
+    "username": "simonknudsen",
+    "executable": "/Users/simonknudsen/opt/anaconda3/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 2700,
+        "min": 2700,
+        "max": 2700
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2700,
+            "min": 2700,
+            "max": 2700
+        }
+    ],
+    "disk": {
+        "total": 112.80464935302734,
+        "used": 112.72241973876953
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

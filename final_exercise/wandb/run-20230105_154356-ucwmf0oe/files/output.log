@@ -1,0 +1,14 @@
+Epoch: 0
+Epoch: 1
+Epoch: 2
+Epoch: 3
+Epoch: 4
+Epoch: 5
+Epoch: 6
+Epoch: 7
+Epoch: 8
+Epoch: 9
+/Users/simonknudsen/Desktop/final_exercise/main_sweep.py:76: UserWarning: Starting a Matplotlib GUI outside of the main thread will likely fail.
+  plt.plot(range(epochs), train_losses)
+/Users/simonknudsen/Desktop/final_exercise/main_sweep.py:79: UserWarning: Starting a Matplotlib GUI outside of the main thread will likely fail.
+  plt.show()

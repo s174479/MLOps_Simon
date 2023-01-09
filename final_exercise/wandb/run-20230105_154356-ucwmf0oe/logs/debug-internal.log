@@ -1,0 +1,154 @@
+2023-01-05 15:43:56,794 INFO    StreamThr :5814 [internal.py:wandb_internal():87] W&B internal server running at pid: 5814, started at: 2023-01-05 15:43:56.791632
+2023-01-05 15:43:56,855 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: status
+2023-01-05 15:43:57,296 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: status
+2023-01-05 15:43:57,299 INFO    WriterThread:5814 [datastore.py:open_for_write():75] open: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/run-ucwmf0oe.wandb
+2023-01-05 15:43:57,299 DEBUG   SenderThread:5814 [sender.py:send():303] send: header
+2023-01-05 15:43:57,299 DEBUG   SenderThread:5814 [sender.py:send():303] send: run
+2023-01-05 15:43:57,794 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: check_version
+2023-01-05 15:43:57,799 INFO    SenderThread:5814 [dir_watcher.py:__init__():216] watching files in: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files
+2023-01-05 15:43:57,800 INFO    SenderThread:5814 [sender.py:_start_run_threads():928] run started: ucwmf0oe with start time 1672929836.749098
+2023-01-05 15:43:57,800 DEBUG   SenderThread:5814 [sender.py:send():303] send: summary
+2023-01-05 15:43:57,800 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 15:43:57,801 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: check_version
+2023-01-05 15:43:57,882 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: run_start
+2023-01-05 15:43:57,898 DEBUG   HandlerThread:5814 [system_info.py:__init__():31] System info init
+2023-01-05 15:43:57,899 DEBUG   HandlerThread:5814 [system_info.py:__init__():46] System info init done
+2023-01-05 15:43:57,899 INFO    HandlerThread:5814 [system_monitor.py:start():150] Starting system monitor
+2023-01-05 15:43:57,900 INFO    SystemMonitor:5814 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-01-05 15:43:57,900 INFO    HandlerThread:5814 [system_monitor.py:probe():171] Collecting system info
+2023-01-05 15:43:57,902 DEBUG   HandlerThread:5814 [system_info.py:probe():195] Probing system
+2023-01-05 15:43:57,902 INFO    SystemMonitor:5814 [interfaces.py:start():168] Started cpu
+2023-01-05 15:43:57,903 INFO    SystemMonitor:5814 [interfaces.py:start():168] Started disk
+2023-01-05 15:43:57,906 INFO    SystemMonitor:5814 [interfaces.py:start():168] Started memory
+2023-01-05 15:43:57,909 INFO    SystemMonitor:5814 [interfaces.py:start():168] Started network
+2023-01-05 15:43:57,915 DEBUG   HandlerThread:5814 [git.py:repo():40] git repository is invalid
+2023-01-05 15:43:57,916 DEBUG   HandlerThread:5814 [system_info.py:probe():241] Probing system done
+2023-01-05 15:43:57,916 DEBUG   HandlerThread:5814 [system_monitor.py:probe():180] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.7', 'heartbeatAt': '2023-01-05T14:43:57.902360', 'startedAt': '2023-01-05T14:43:56.721035', 'docker': None, 'cuda': None, 'args': ('train',), 'state': 'running', 'program': '/Users/simonknudsen/Desktop/final_exercise/main_sweep.py', 'codePath': 'main_sweep.py', 'host': 'Simons-MacBook-Pro-2.local', 'username': 'simonknudsen', 'executable': '/Users/simonknudsen/opt/anaconda3/bin/python', 'cpu_count': 2, 'cpu_count_logical': 2, 'cpu_freq': {'current': 2700, 'min': 2700, 'max': 2700}, 'cpu_freq_per_core': [{'current': 2700, 'min': 2700, 'max': 2700}], 'disk': {'total': 112.80464935302734, 'used': 112.61174392700195}, 'memory': {'total': 8.0}}
+2023-01-05 15:43:57,916 INFO    HandlerThread:5814 [system_monitor.py:probe():181] Finished collecting system info
+2023-01-05 15:43:57,917 INFO    HandlerThread:5814 [system_monitor.py:probe():184] Publishing system info
+2023-01-05 15:43:57,917 DEBUG   HandlerThread:5814 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-01-05 15:43:57,919 DEBUG   HandlerThread:5814 [system_info.py:_save_pip():67] Saving pip packages done
+2023-01-05 15:43:57,920 DEBUG   HandlerThread:5814 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-01-05 15:43:58,807 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/conda-environment.yaml
+2023-01-05 15:43:58,808 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/requirements.txt
+2023-01-05 15:43:58,808 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json
+2023-01-05 15:44:32,501 DEBUG   HandlerThread:5814 [system_info.py:_save_conda():86] Saving conda packages done
+2023-01-05 15:44:32,503 INFO    HandlerThread:5814 [system_monitor.py:probe():186] Finished publishing system info
+2023-01-05 15:44:32,790 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:44:32,790 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:44:32,797 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:44:32,943 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/conda-environment.yaml
+2023-01-05 15:44:32,943 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-metadata.json
+2023-01-05 15:44:33,014 DEBUG   SenderThread:5814 [sender.py:send():303] send: telemetry
+2023-01-05 15:44:33,016 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:44:33,243 DEBUG   SenderThread:5814 [sender.py:send():303] send: files
+2023-01-05 15:44:33,243 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2023-01-05 15:44:33,803 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 15:44:33,805 DEBUG   SenderThread:5814 [sender.py:send():303] send: history
+2023-01-05 15:44:33,806 DEBUG   SenderThread:5814 [sender.py:send():303] send: summary
+2023-01-05 15:44:33,808 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 15:44:33,831 INFO    Thread-16 :5814 [upload_job.py:push():143] Uploaded file /var/folders/y8/zj98svx14mlczjjjxsjtbphr0000gn/T/tmpmiyqnvx9wandb/pguoop9o-wandb-metadata.json
+2023-01-05 15:44:33,949 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json
+2023-01-05 15:44:33,949 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:44:35,958 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:44:42,905 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:44:42,905 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:44:57,910 DEBUG   SystemMonitor:5814 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-01-05 15:44:57,911 DEBUG   SenderThread:5814 [sender.py:send():303] send: stats
+2023-01-05 15:44:58,134 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:44:58,134 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:44:58,328 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 15:44:58,588 DEBUG   SenderThread:5814 [sender.py:send():303] send: history
+2023-01-05 15:44:58,589 DEBUG   SenderThread:5814 [sender.py:send():303] send: summary
+2023-01-05 15:44:58,590 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 15:44:59,054 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:44:59,054 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/config.yaml
+2023-01-05 15:44:59,055 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json
+2023-01-05 15:45:09,885 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 15:45:09,885 DEBUG   SenderThread:5814 [sender.py:send():303] send: history
+2023-01-05 15:45:09,886 DEBUG   SenderThread:5814 [sender.py:send():303] send: summary
+2023-01-05 15:45:09,888 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 15:45:10,091 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json
+2023-01-05 15:45:11,097 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:45:13,351 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:45:13,351 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:45:22,207 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 15:45:22,208 DEBUG   SenderThread:5814 [sender.py:send():303] send: history
+2023-01-05 15:45:22,209 DEBUG   SenderThread:5814 [sender.py:send():303] send: summary
+2023-01-05 15:45:22,210 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 15:45:23,140 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:45:23,142 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json
+2023-01-05 15:45:27,911 DEBUG   SenderThread:5814 [sender.py:send():303] send: stats
+2023-01-05 15:45:28,553 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:45:28,553 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:45:32,576 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 15:45:32,577 DEBUG   SenderThread:5814 [sender.py:send():303] send: history
+2023-01-05 15:45:32,578 DEBUG   SenderThread:5814 [sender.py:send():303] send: summary
+2023-01-05 15:45:32,580 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 15:45:33,177 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:45:33,177 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json
+2023-01-05 15:45:42,668 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 15:45:42,670 DEBUG   SenderThread:5814 [sender.py:send():303] send: history
+2023-01-05 15:45:42,670 DEBUG   SenderThread:5814 [sender.py:send():303] send: summary
+2023-01-05 15:45:42,671 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 15:45:43,213 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:45:43,214 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json
+2023-01-05 15:45:43,765 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:45:43,765 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:45:54,707 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 15:45:54,708 DEBUG   SenderThread:5814 [sender.py:send():303] send: history
+2023-01-05 15:45:54,708 DEBUG   SenderThread:5814 [sender.py:send():303] send: summary
+2023-01-05 15:45:54,709 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 15:45:55,252 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:45:55,252 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json
+2023-01-05 15:45:57,912 DEBUG   SenderThread:5814 [sender.py:send():303] send: stats
+2023-01-05 15:45:58,978 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:45:58,978 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:46:05,073 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 15:46:05,074 DEBUG   SenderThread:5814 [sender.py:send():303] send: history
+2023-01-05 15:46:05,075 DEBUG   SenderThread:5814 [sender.py:send():303] send: summary
+2023-01-05 15:46:05,076 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 15:46:05,287 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:46:05,287 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json
+2023-01-05 15:46:14,179 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:46:14,179 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:46:15,414 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 15:46:15,415 DEBUG   SenderThread:5814 [sender.py:send():303] send: history
+2023-01-05 15:46:15,416 DEBUG   SenderThread:5814 [sender.py:send():303] send: summary
+2023-01-05 15:46:15,417 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 15:46:16,333 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json
+2023-01-05 15:46:17,335 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:46:27,169 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: partial_history
+2023-01-05 15:46:27,170 DEBUG   SenderThread:5814 [sender.py:send():303] send: history
+2023-01-05 15:46:27,170 DEBUG   SenderThread:5814 [sender.py:send():303] send: summary
+2023-01-05 15:46:27,171 INFO    SenderThread:5814 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2023-01-05 15:46:27,368 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json
+2023-01-05 15:46:27,916 DEBUG   SenderThread:5814 [sender.py:send():303] send: stats
+2023-01-05 15:46:29,376 INFO    Thread-13 :5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:46:29,384 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:46:29,384 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:46:48,261 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:46:48,264 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:46:57,917 DEBUG   SenderThread:5814 [sender.py:send():303] send: stats
+2023-01-05 15:47:03,486 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:47:03,486 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:47:18,695 DEBUG   HandlerThread:5814 [handler.py:handle_request():139] handle_request: stop_status
+2023-01-05 15:47:18,696 DEBUG   SenderThread:5814 [sender.py:send_request():317] send_request: stop_status
+2023-01-05 15:47:26,501 WARNING StreamThr :5814 [internal.py:is_dead():386] Internal process exiting, parent pid 5109 disappeared
+2023-01-05 15:47:26,502 ERROR   StreamThr :5814 [internal.py:wandb_internal():146] Internal process shutdown.
+2023-01-05 15:47:26,921 INFO    HandlerThread:5814 [handler.py:finish():814] shutting down handler
+2023-01-05 15:47:26,929 INFO    SenderThread:5814 [sender.py:finish():1331] shutting down sender
+2023-01-05 15:47:27,015 INFO    WriterThread:5814 [datastore.py:close():279] close: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/run-ucwmf0oe.wandb
+2023-01-05 15:47:27,680 INFO    SenderThread:5814 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-01-05 15:47:28,597 INFO    SenderThread:5814 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log
+2023-01-05 15:47:28,598 INFO    SenderThread:5814 [dir_watcher.py:finish():392] scan: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files
+2023-01-05 15:47:28,598 INFO    SenderThread:5814 [dir_watcher.py:finish():406] scan save: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/requirements.txt requirements.txt
+2023-01-05 15:47:28,598 INFO    SenderThread:5814 [dir_watcher.py:finish():406] scan save: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/output.log output.log
+2023-01-05 15:47:28,599 INFO    SenderThread:5814 [dir_watcher.py:finish():406] scan save: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/config.yaml config.yaml
+2023-01-05 15:47:28,599 INFO    SenderThread:5814 [dir_watcher.py:finish():406] scan save: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-summary.json wandb-summary.json
+2023-01-05 15:47:28,599 INFO    SenderThread:5814 [dir_watcher.py:finish():406] scan save: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/conda-environment.yaml conda-environment.yaml
+2023-01-05 15:47:28,603 INFO    SenderThread:5814 [dir_watcher.py:finish():406] scan save: /Users/simonknudsen/Desktop/final_exercise/wandb/run-20230105_154356-ucwmf0oe/files/wandb-metadata.json wandb-metadata.json
+2023-01-05 15:47:28,603 INFO    SenderThread:5814 [file_pusher.py:finish():168] shutting down file pusher
+2023-01-05 15:47:28,604 INFO    SenderThread:5814 [file_pusher.py:join():173] waiting for file pusher
+2023-01-05 15:47:28,634 INFO    MainThread:5814 [internal.py:handle_exit():77] Internal process exited
+2023-01-05 15:47:28,638 WARNING MsgRouterThr:5814 [router.py:message_loop():74] EOFError seen in message_loop
