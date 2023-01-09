@@ -1,0 +1,44 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.7",
+    "heartbeatAt": "2023-01-09T13:28:19.748777",
+    "startedAt": "2023-01-09T13:28:18.772862",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "train"
+    ],
+    "state": "running",
+    "program": "/Users/simonknudsen/Documents/GitHub/MLOps_Simon/final_exercise/main.py",
+    "codePath": "final_exercise/main.py",
+    "git": {
+        "remote": "https://github.com/s174479/MLOps_Simon.git",
+        "commit": "a57276effc9fd84c673fd8b9640a994f880d7064"
+    },
+    "email": "simon_nk7@hotmail.com",
+    "root": "/Users/simonknudsen/Documents/GitHub/MLOps_Simon",
+    "host": "Simons-MacBook-Pro-2.local",
+    "username": "simonknudsen",
+    "executable": "/Users/simonknudsen/opt/anaconda3/bin/python",
+    "cpu_count": 2,
+    "cpu_count_logical": 2,
+    "cpu_freq": {
+        "current": 2700,
+        "min": 2700,
+        "max": 2700
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2700,
+            "min": 2700,
+            "max": 2700
+        }
+    ],
+    "disk": {
+        "total": 112.80464935302734,
+        "used": 112.59332656860352
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

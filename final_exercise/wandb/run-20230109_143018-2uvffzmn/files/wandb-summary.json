@@ -1,0 +1,1 @@
+{"loss": 0.09716807305812836, "_timestamp": 1673271046.43136, "_runtime": 27.984927892684937, "_step": 1955, "Running loss pr. epoch": {"_type": "plotly-file", "sha256": "cb96f2eb4e8746e7338f542451eb55e3ec36ba406b9eae3a25e8d506a06fc8a7", "size": 8705, "path": "media/plotly/Running loss pr. epoch_1955_cb96f2eb4e8746e7338f.plotly.json"}, "_wandb": {"runtime": 28}}
